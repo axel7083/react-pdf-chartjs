@@ -1,0 +1,1 @@
+export {ReactPDFChartJS as Chart, ReactPDFChartProps as ChartProps} from './ReactPDFChartJS';
