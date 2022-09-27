@@ -4,6 +4,7 @@
     "target": "es2017",
     "module": "CommonJS",
     "lib": ["esnext"],
+    "declaration": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,

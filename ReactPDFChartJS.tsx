@@ -21,7 +21,7 @@ const ReactPDFChartJS = ({style, configuration, resolution, backgroundColour, ke
         height: resolution.height,
         backgroundColour
     });
-    const content = chartJSNodeCanvas.renderToBufferSync(configuration);
+    const content = chartJSNodeCanvas.renderToDataURLSync(configuration);
 
     return (
         <View style={style}>
